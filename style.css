@@ -145,6 +145,7 @@ header.scrolled {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
+/* Nav */
 .nav-content {
     display: flex;
     justify-content: space-between;
@@ -152,25 +153,11 @@ header.scrolled {
     height: 80px;
 }
 
+.logo img { height: 45px; width: auto; object-fit: contain; }
+
 .logo {
     display: flex;
-    flex-direction: column;
-    line-height: 1;
-}
-
-.logo .mgf {
-    font-family: var(--font-heading);
-    font-weight: 900;
-    font-size: 1.8rem;
-    color: var(--primary);
-    letter-spacing: -1px;
-}
-
-.logo .mega {
-    font-size: 0.8rem;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: var(--text-main);
+    align-items: center;
 }
 
 .desktop-nav {
