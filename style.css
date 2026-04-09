@@ -788,3 +788,62 @@ footer {
     .gallery-grid { grid-template-columns: 1fr; grid-auto-rows: 250px; }
     .reviews-grid { grid-template-columns: 1fr; }
 }
+
+/* Unidades Benefícios */
+.unidade-benefits {
+    margin-top: 24px;
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+}
+
+.unidade-benefits h4 {
+    font-size: 1.1rem;
+    color: var(--primary);
+    margin-bottom: 12px;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+.unidade-benefits h4:first-child {
+    margin-top: 0;
+}
+
+.unidade-benefits ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.unidade-benefits ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: var(--text-main);
+}
+
+.unidade-benefits ul li i {
+    color: var(--primary);
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+.gympass-badge {
+    background-color: var(--bg-surface-lighter);
+    border: 1px solid var(--primary);
+    color: var(--text-main);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+.gympass-badge i {
+    color: var(--primary);
+}
