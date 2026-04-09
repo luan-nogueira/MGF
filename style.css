@@ -86,13 +86,16 @@ a {
 
 .btn-primary {
     background-color: var(--primary);
-    color: white;
+    color: var(--bg-dark);
+    border: 2px solid var(--bg-dark);
+    font-weight: 800;
 }
 
 .btn-primary:hover {
     background-color: var(--primary-hover);
+    color: var(--bg-dark);
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4);
+    box-shadow: 0 4px 15px rgba(191, 255, 0, 0.4);
 }
 
 .btn-outline {
