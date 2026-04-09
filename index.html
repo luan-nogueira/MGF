@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A academia mais completa de Campos dos Goytacazes. Estrutura premium, máquinas de ponta e resultado real.">
+    <title>MGF Mega Gym Fitness | Campos dos Goytacazes</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header id="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <span class="mgf">MGF</span>
+                <span class="mega">MEGA GYM</span>
+            </div>
+            <nav class="desktop-nav">
+                <a href="#sobre">Sobre nós</a>
+                <a href="#diferenciais">Diferenciais</a>
+                <a href="#unidades">Unidades</a>
+                <a href="#galeria">Estrutura</a>
+                <a href="#contato" class="btn btn-outline">Matricule-se</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#sobre">Sobre nós</a>
+            <a href="#diferenciais">Diferenciais</a>
+            <a href="#unidades">Unidades</a>
+            <a href="#galeria">Estrutura</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title reveal">A academia mais <span>completa</span> de<br>Campos dos Goytacazes.</h1>
+            <p class="hero-subtitle reveal delay-1">Estrutura premium, equipamentos de ponta e resultado real.</p>
+            <div class="hero-buttons reveal delay-2">
+                <a href="#unidades" class="btn btn-primary">Começar agora</a>
+                <a href="#unidades" class="btn btn-whatsapp-icon">
+                    <i data-lucide="message-circle"></i> Falar no WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre container">
+        <div class="sobre-content reveal">
+            <h2 class="section-title">Sobre a <span>MGF</span></h2>
+            <p>Construída com foco absoluto em performance, bem-estar e resultados. A MGF Mega Gym Fitness é mais do que uma academia; é o ambiente perfeito para você superar limites.</p>
+            <p>Com profissionais altamente qualificados e uma estrutura moderna, entregamos uma experiência premium que as academias tradicionais não conseguem oferecer.</p>
+            <div class="sobre-stats">
+                <div class="stat">
+                    <h3>2</h3>
+                    <p>Unidades em Campos</p>
+                </div>
+                <div class="stat">
+                    <h3>1.3k+</h3>
+                    <p>m² de Área</p>
+                </div>
+                <div class="stat">
+                    <h3>Premium</h3>
+                    <p>Equipamentos</p>
+                </div>
+            </div>
+        </div>
+        <div class="sobre-image reveal delay-1">
+            <img src="images/about.png" alt="Interior moderno da MGF Mega Gym">
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section id="diferenciais" class="diferenciais">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Por que escolher a <span>MGF</span>?</h2>
+            
+            <div class="dif-grid">
+                <div class="dif-card reveal">
+                    <div class="dif-icon"><i data-lucide="maximize"></i></div>
+                    <h3>Estrutura Ampla</h3>
+                    <p>Mais de 1.300m² de área climatizada para um treino confortável.</p>
+                </div>
+                <div class="dif-card reveal delay-1">
+                    <div class="dif-icon"><i data-lucide="dumbbell"></i></div>
+                    <h3>Máquinas Modernas</h3>
+                    <p>Equipamentos de última geração em biomecânica e ergonomia.</p>
+                </div>
+                <div class="dif-card reveal delay-2">
+                    <div class="dif-icon"><i data-lucide="users"></i></div>
+                    <h3>Atendimento Premium</h3>
+                    <p>Professores altamente qualificados e atenciosos para seu resultado.</p>
+                </div>
+                <div class="dif-card reveal">
+                    <div class="dif-icon"><i data-lucide="flame"></i></div>
+                    <h3>Ambiente Motivador</h3>
+                    <p>Design moderno e imersivo, ideal para focar no seu treino.</p>
+                </div>
+                <div class="dif-card reveal delay-1">
+                    <div class="dif-icon"><i data-lucide="target"></i></div>
+                    <h3>Resultados Reais</h3>
+                    <p>Planos de treino pensados para evolução contínua, em todos os níveis.</p>
+                </div>
+                <div class="dif-card reveal delay-2">
+                    <div class="dif-icon"><i data-lucide="zap"></i></div>
+                    <h3>Clima Incomparável</h3>
+                    <p>Música envolvente, iluminação planejada: você não vai querer sair daqui.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unidades / Nossas Academias -->
+    <section id="unidades" class="unidades container">
+        <h2 class="section-title text-center reveal">Nossas <span>Unidades</span></h2>
+        <p class="text-center subtitle-text reveal">Escolha a MGF mais perto de você e comece hoje mesmo.</p>
+
+        <div class="unidades-grid">
+            <!-- Unidade 1 -->
+            <div class="unidade-card reveal">
+                <div class="unidade-header">
+                    <h3>Unidade 28 de Março</h3>
+                    <div class="unidade-rating">
+                        <i data-lucide="star"></i> 4,7 <span>(57)</span>
+                    </div>
+                </div>
+                <div class="unidade-body">
+                    <div class="unidade-info">
+                        <i data-lucide="map-pin"></i>
+                        <p>R. Jarbas Dias Pecli, 16 - Parque Flamboyant</p>
+                    </div>
+                    <div class="unidade-info">
+                        <i data-lucide="clock"></i>
+                        <p>Aberto até 23:00</p>
+                    </div>
+                    <div class="unidade-badge">Diferencial: +1.300m² de estrutura premium</div>
+                </div>
+                <div class="unidade-footer">
+                    <a href="https://wa.me/5522997063403" target="_blank" class="btn btn-whatsapp w-100">
+                        <i data-lucide="message-circle"></i> Falar no WhatsApp
+                    </a>
+                    <a href="https://maps.google.com/?q=R.+Jarbas+Dias+Pecli,+16+-+Parque+Flamboyant" target="_blank" class="btn btn-outline w-100 mt-2">
+                        Ver Localização
+                    </a>
+                </div>
+            </div>
+
+            <!-- Unidade 2 -->
+            <div class="unidade-card reveal delay-1">
+                <div class="unidade-header">
+                    <h3>Unidade Princesa Isabel</h3>
+                    <div class="unidade-rating">
+                        <i data-lucide="star"></i> 4,6 <span>(49)</span>
+                    </div>
+                </div>
+                <div class="unidade-body">
+                    <div class="unidade-info">
+                        <i data-lucide="map-pin"></i>
+                        <p>Rua Princesa Isabel, 127, altos - Parque Rosário</p>
+                    </div>
+                    <div class="unidade-info">
+                        <i data-lucide="clock"></i>
+                        <p>Aberto até 22:00</p>
+                    </div>
+                    <div class="unidade-badge">Foco em saúde, bem-estar e performance</div>
+                </div>
+                <div class="unidade-footer">
+                    <a href="https://wa.me/5522997875672" target="_blank" class="btn btn-whatsapp w-100">
+                        <i data-lucide="message-circle"></i> Falar no WhatsApp
+                    </a>
+                    <a href="https://maps.google.com/?q=Rua+Princesa+Isabel,+127,+Parque+Rosário" target="_blank" class="btn btn-outline w-100 mt-2">
+                        Ver Localização
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Prov -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Estrutura <span>Premium</span></h2>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Imagens injetadas via JS e populadas estáticas -->
+                <div class="gallery-item"><img src="images/hero.png" alt="MGF Gym"></div>
+                <div class="gallery-item"><img src="images/about.png" alt="Máquina de peso"></div>
+                <!-- Vão chegar mais imgs -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Avaliações -->
+    <section class="avaliacoes container">
+        <h2 class="section-title text-center reveal">O que nossos <span>alunos dizem</span></h2>
+        <div class="reviews-grid">
+            <div class="review-card reveal">
+                <div class="review-stars"><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i></div>
+                <p class="review-text">"Melhor estrutura da cidade! Aparelhos fantásticos e profissionais super prestativos. Recomendo de olhos fechados."</p>
+                <div class="review-author">
+                    <div class="author-avatar"><i data-lucide="user"></i></div>
+                    <div>
+                        <h4>Aluno 28 de Março</h4>
+                        <span>Avaliação Google</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card reveal delay-1">
+                <div class="review-stars"><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i></div>
+                <p class="review-text">"Melhor academia da cidade... Os diferenciais impressionam, desde a iluminação até a variedade de pesos."</p>
+                <div class="review-author">
+                    <div class="author-avatar"><i data-lucide="user"></i></div>
+                    <div>
+                        <h4>Aluna Princesa Isabel</h4>
+                        <span>Avaliação Google</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container cta-content reveal">
+            <h2>Comece hoje sua <span>transformação</span></h2>
+            <p>O corpo que você deseja construir precisa de uma academia que acompanhe o seu ritmo.</p>
+            <div class="cta-buttons">
+                <a href="#unidades" class="btn btn-primary btn-large">Matricular agora</a>
+                <a href="#unidades" class="btn btn-outline btn-large">Agendar visita</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                     <span class="mgf">MGF</span><span class="mega">MEGA GYM</span>
+                </div>
+                <p>A rede de academias mais completa de Campos dos Goytacazes, focada em performance e estética premium.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Links rápidos</h3>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#unidades">Unidades</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <p><i data-lucide="phone"></i> 28 de Março: (22) 99706-3403</p>
+                <p><i data-lucide="phone"></i> Princesa Isabel: (22) 99787-5672</p>
+                <p class="mt-2"><a href="#" class="instagram-link"><i data-lucide="instagram"></i> Siga a MGF no Instagram</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 MGF Mega Gym Fitness. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Setup -->
+    <div class="floating-whatsapp-container">
+        <div class="fab-options" id="fabOptions">
+            <a href="https://wa.me/5522997063403" target="_blank" class="fab-option">
+                <span>Unidade 28 de Março</span>
+                <div class="fab-icon"><i data-lucide="message-circle"></i></div>
+            </a>
+            <a href="https://wa.me/5522997875672" target="_blank" class="fab-option">
+                <span>Unidade Princesa Isabel</span>
+                <div class="fab-icon"><i data-lucide="message-circle"></i></div>
+            </a>
+        </div>
+        <button class="fab-main" id="fabMain">
+            <i data-lucide="message-circle" class="ic-msg"></i>
+            <i data-lucide="x" class="ic-close" style="display:none;"></i>
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
